@@ -1,10 +1,10 @@
 # ZigBee Controller with HTTP API (ZigCoHTTP)
 
-This python application creates a ZigBee network using [bellows](https://github.com/zigpy/bellows). ZigBee devices joining this network can be controlled via a HTTP API. It was developed for a Rasperry Pi using a [Matrix Creator Board](https://www.matrix.one/products/creator) but should also work with other hardware.
+This python application creates a ZigBee network using [zigpy](https://github.com/zigpy/zigpy) and [bellows](https://github.com/zigpy/bellows). ZigBee devices joining this network can be controlled via a HTTP API. It was developed for a Rasperry Pi using a [Matrix Creator Board](https://www.matrix.one/products/creator) but should also work with other computers with Silicon Labs Zigbee hardware.
 
 ## Requirements
 
-* compatible hardware (see https://github.com/zigpy/bellows)
+* Compatible Zigbee hardware (see https://github.com/zigpy/bellows)
 * Python 3 and pip
 
 ## Installation
